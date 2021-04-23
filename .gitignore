@@ -1,5 +1,41 @@
-# Object file
-*.o
+# Prerequisites
+*.d
 
-# Ada Library Information
-*.ali
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#Vivado-related files/diretories
+*.log
+*.jou
+*.str
+*.xpr
+build
+build/
+**/build
